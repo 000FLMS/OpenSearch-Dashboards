@@ -364,6 +364,11 @@
 # opensearchDashboards.dashboardAdmin.groups: ["dashboard_admin"]
 # opensearchDashboards.dashboardAdmin.users: ["dashboard_admin"]
 
-assistant.chat.enabled: true
 
 workspace.enabled: true
+
+assistant:
+  chat:
+    enabled: true
+  next:
+    enabled: true
